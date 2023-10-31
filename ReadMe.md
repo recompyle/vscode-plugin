@@ -1,5 +1,6 @@
-# Recompyle README
+# RECOMPYLE VsCode plugin
 
-VsCode Plugin for Recompyle - Javascript / Typescript Smart Debugger
+A Javascript Developer Friendly Console / Debugger.
 
-More infos on the main repo :  [Recompyle](https://github.com/recompyle/recompyle) 
+More infos on the main repo :  [Recompyle](https://github.com/recompyle/recompyle)
+
