@@ -3,7 +3,7 @@
   "displayName": "Recompyle VsCode Plugin",
   "description": "VsCode Plugin for Recomyple - Javascript / Typescript Smart Debugger",
   "repository": "https://github.com/recompyle/vscode-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.81.0"
   },
