@@ -1,4 +1,4 @@
-# RECOMPYLE VsCode Plugin
+# Recompyle VsCode Plugin
 
 A Javascript Developer Friendly Console / Debugger.
 

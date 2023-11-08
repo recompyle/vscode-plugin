@@ -4,7 +4,7 @@
   "description": "VsCode Plugin for Recomyple - A Javascript Developer Friendly Console / Debugger.",
   "author": "Recompyle - Damien Galan <damien@recompyle.com> (https://github.com/recompyle)",
   "repository": "https://github.com/recompyle/vscode-plugin",
-  "icon": "asset/logo-256.png",
+  "icon": "asset/logo-256.jpg",
   "license": "SEE LICENSE IN License.md",
   "version": "0.1.1",
   "homepage": "https://github.com/recompyle/recompyle",
