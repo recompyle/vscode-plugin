@@ -1,17 +1,34 @@
 {
   "name": "recompyle-vscode-plugin",
   "displayName": "Recompyle VsCode Plugin",
-  "description": "VsCode Plugin for Recomyple - Javascript / Typescript Smart Debugger",
+  "description": "VsCode Plugin for Recomyple - A Javascript Developer Friendly Console / Debugger.",
+  "author": "Recompyle - Damien Galan <damien@recompyle.com> (https://github.com/recompyle)",
   "repository": "https://github.com/recompyle/vscode-plugin",
-  "version": "0.0.2",
+  "icon": "asset/logo-256.png",
+  "license": "SEE LICENSE IN License.md",
+  "version": "0.1.1",
+  "homepage": "https://github.com/recompyle/recompyle",
+  "bugs": {
+    "url": "https://github.com/recompyle/recompyle/issues",
+    "email": "support@recompyle.com"
+  },
   "engines": {
     "vscode": "^1.81.0"
   },
   "publisher": "Recompyle",
   "categories": [
-    "Debuggers"
+    "Debuggers",
+    "Other"
   ],
-  "activationEvents": ["onStartupFinished"],
+  "keywords": [
+    "debug",
+    "console",
+    "typescript",
+    "javascript"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
