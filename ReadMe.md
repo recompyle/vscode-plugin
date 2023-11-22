@@ -1,4 +1,4 @@
-# Recompyle VsCode Plugin
+# Recompyle
 
 A Javascript Developer Friendly Console / Debugger.
 
@@ -16,10 +16,13 @@ You also need the Recompyle App.
 - Open a file in the IDE from the Recompyle App.
 - Select the port to communicate with the Recompyle App.
 
-### Settings
+### Settings > settings.json
 
-#### VsCode CLI
-
+In the settings you can enable / disable functionalities and change de IDE port/
 
 Each VsCode Project has its own settings.
+
+### VsCode Command Palette
+
+CTRL + Shift + P  > "Select File Recompyle"
 

@@ -1,6 +1,6 @@
 {
   "name": "recompyle-vscode-plugin",
-  "displayName": "Recompyle VsCode Plugin",
+  "displayName": "Recompyle Plugin",
   "description": "VsCode Plugin for Recomyple - A Javascript Developer Friendly Console / Debugger.",
   "author": "Recompyle - Damien Galan <damien@recompyle.com> (https://github.com/recompyle)",
   "repository": "https://github.com/recompyle/vscode-plugin",
