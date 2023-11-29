@@ -6,7 +6,7 @@ This plugin is a bridge between your IDE and the RECOMPYLE App.
 
 You also need the Recompyle App.
 
-[More infos about the Recompyle App](https://github.com/recompyle/recompyle)
+[Documentation of Recompyle App](https://github.com/recompyle/recompyle)
 
 ### Functionalities of the plugin
 
