@@ -19,7 +19,7 @@ export interface FileCursor {
   column: number;
 }
 
-export interface AppSetting {
+export interface AppSetting { 
   workspaceRoot: string;
   enabled?: boolean;
   port: number;

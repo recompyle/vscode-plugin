@@ -6,7 +6,7 @@
   "repository": "https://github.com/recompyle/vscode-plugin",
   "icon": "asset/logo-256.jpg",
   "license": "SEE LICENSE IN License.md",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/recompyle/recompyle",
   "bugs": {
     "url": "https://github.com/recompyle/recompyle/issues",

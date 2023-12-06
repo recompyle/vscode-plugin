@@ -3,6 +3,7 @@ import { Socket, io } from "socket.io-client";
 import { openFile } from "../apis/open-file";
 import { getBreakpoints } from "../apis/breakpoints";
 import { getOpenedFiles } from "../apis/opened-files";
+import vscode from "vscode";
 
 export class SocketInstance {
   socket: Socket<DefaultEventsMap, DefaultEventsMap>;
@@ -58,7 +59,6 @@ export class SocketInstance {
       ideRoot: workspaceRoot,
       filePath:filePath
     });
-
   }
 
   sendUpdate() {
@@ -88,6 +88,7 @@ export class SocketInstance {
     this.socket.off('event', this.onEvent.bind(this));
     this.socket.off('target-project', this.onTargetProject.bind(this));
     this.socket.off('open-file', this.onOpenFile.bind(this));
+    this.socket.offAnyOutgoing();
     this.socket.close();
   }
 }
